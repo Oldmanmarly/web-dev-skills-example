@@ -1,0 +1,72 @@
+/* Stlye Sheet for Web Development Skills Page  */
+
+/* page Styles */
+html {
+    background: url("images/aeonium-tabuliforme-1061603_1920.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+div {
+    border-radius: 25px;
+
+    width: 600px;
+    margin: 20px auto;
+    padding: 10px 100px;
+    background-color: whitesmoke;
+}
+
+.html {
+    border: 2px solid rgb(11, 228, 11);
+    box-shadow: 2px 2px rgb(250, 2, 188);
+}
+
+.css {
+    border: 2px solid rgb(255, 255, 0);
+    box-shadow: 2px 2px rgb(255, 0, 0);
+}
+
+.js {
+    border: 2px solid rgb(0, 255, 255);
+    box-shadow: 2px 2px rgb(128, 0, 128);
+}
+
+/* Text Styles */
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size 45px;
+}
+
+h1 {
+    border: 2px solid rgb(204, 11, 230);
+    text-align: center;
+}
+
+h2 {
+    font-variant: small-caps;
+}
+
+p, ul {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+/* Tutorial Notes */
+.tutorial {
+    font-size: 12px;
+}
+
+/* Link Styles */
+a {
+    color: #ff00bf;
+    text-decoration:  none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
